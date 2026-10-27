@@ -1,0 +1,17 @@
+name: astrbot_plugin_white_rice
+display_name: 白饭账本
+short_desc: 用自然语言查询机器人吃了多少「白饭」（token）与折算费用
+desc: >-
+  把 AstrBot 的 token 用量以「白饭」的口吻汇报出来。注册 LLM 函数工具，
+  当用户问「你今天吃了多少大白饭」「用了多少 token」「花了多少钱」时由模型自动调用；
+  数据取自 AstrBot 原生 provider_stats（完整、权威），金额取自 cost_control 的补充库。
+help: 直接问「你今天吃了多少大白饭」「这周用了多少 token」；也可用指令 /白饭 [天数]
+version: 1.1.0
+author: 本地
+astrbot_version: ">=4.16"
+tags:
+  - token
+  - 用量
+  - 统计
+  - 白饭
+repo: https://github.com/Luke0Liu/astrbot_plugin_white_rice
